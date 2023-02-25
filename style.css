@@ -91,20 +91,22 @@ a:hover{
   color: red;
 }
 
-.new-user{
+.newuser{
   display: flex;
   align-items: center;
   margin-top: 30px;
 }
 
-.new-user input {
-  /* background-image: linear-gradient(140deg, #0a2450, #0B7DBF, #5A6475, #4484F2); */
+.newuser input {
   cursor: pointer;
   height: 35px;
   width: 150px;
   align-items: center;
   font: bold 1.1em black;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466) ;
+}
+.newuser a{
+  text-decoration: none;
 }
 
 footer{

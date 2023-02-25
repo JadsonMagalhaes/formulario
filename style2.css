@@ -33,7 +33,7 @@ h1{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 3em;
     text-align: center;
-    margin: 0px 0 50px 0;
+    margin: 0px 0 40px 0;
 }
 label{
     font-family: 'IBM Plex Mono', monospace;
@@ -68,13 +68,32 @@ input {
   }
   
 .register input {
-    /* background-image: linear-gradient(140deg, #0a2450, #0B7DBF, #5A6475, #4484F2); */
     cursor: pointer;
     height: 35px;
     width: 150px;
     align-items: center;
-    font: bold 1.1em black;
+    font: bold 1.1em black;    
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466) ;
+}
+.register a{
+    text-decoration: none;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8em;
+    margin: 10px 0 20px 0;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+.back a:hover{
+    color: red;
 }
 
 footer{
