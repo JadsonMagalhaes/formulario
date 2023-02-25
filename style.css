@@ -105,7 +105,8 @@ a:hover{
   font: bold 1.1em black;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466) ;
 }
-.new-user a{
+
+.new-user > .new{
   text-decoration: none;
 }
 
